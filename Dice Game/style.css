@@ -1,0 +1,73 @@
+html body{
+    height: 100%;
+}
+
+html{
+    display: table;
+    margin: auto;
+}
+
+body{
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+    font-family: 'Arvo', serif;
+    background: linear-gradient(to right, rgb(211, 220, 211), rgb(216, 207, 207));;
+}
+
+/* heading */
+h1{
+    text-align: center;
+    margin-top: 15%;
+}
+
+/* Dices and Players */
+.container{
+    margin-top: 5%;
+}
+
+.player1{
+    float: left;
+    text-align: center;
+}
+
+.player2{
+    float: right;
+    text-align: center;
+}
+
+/* Buttons */
+.buttons{
+    text-align: center;
+}
+
+.roll{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10px 35px;
+    border-radius: 25px;
+    border: solid 3px;
+    font-weight: bolder;
+    border-color: rgb(158, 0, 0);
+    background-color: rgb(255, 46, 46);
+    color: white;
+}
+.roll:hover{
+    background-color: rgb(220, 2, 2);
+    transform: scale(1.1);
+}
+
+.reset{
+    padding: 10px 17px;
+    margin-left: 3%;
+    border-radius: 25px;
+    border: solid 3px;
+    font-weight: bolder;
+    background-color: silver;
+    border-color: rgb(56, 1, 1);
+}
+.reset:hover{
+    background-color: rgb(142, 142, 142);
+    transform: scale(1.1);
+}
+
